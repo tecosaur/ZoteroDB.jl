@@ -1,0 +1,23 @@
+#+title: ZoteroDB
+#+author: tecosaur
+
+Directly interact with your local Zotero database.
+
+Check the docstrings to see how this can be used, starting with the module
+docstring 🙂.
+
+* Types
+
++ ~Library~
++ ~Collection~
++ ~Item~
++ ~Attachment~
++ ~Identifier~
+
+* Functions
+
++ ~collections~ to get collections within a library
++ ~items~ to get items within a collection or library
++ ~iteminfo~ to get item metadata (author, etc.)
++ ~tags~ to get the tags of an item, or used within a library
++ ~attachments~ to get the attachments of an item/collection/library
